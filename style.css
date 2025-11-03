@@ -1,0 +1,24 @@
+/* 1. Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Configuração da Imagem de Fundo Esticada (para altura e largura) */
+body {
+    /* Mude para o caminho correto da sua imagem! Ex: 'images/gorila.jpg' */
+    background-image: url('images/foto.jpg'); 
+    
+    /* ESTICA COMPLETAMENTE: Ajusta a imagem para 100% da largura e 100% da altura da tela.
+       Isso distorcerá a imagem se a proporção original for diferente da tela. */
+    background-size: 100% 100%; 
+    
+    background-position: center; /* Centraliza a imagem (embora com 100% 100% não faça muita diferença visual) */
+    background-repeat: no-repeat; /* Impede a repetição */
+
+    /* Garante que o BODY ocupe a altura mínima da tela (Viewport Height) */
+    min-height: 100vh; 
+    
+    background-color: #000000; /* Cor de fundo caso a imagem falhe ou demore a carregar */
+}
