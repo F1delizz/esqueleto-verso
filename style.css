@@ -8,7 +8,7 @@
 /* 2. Configuração da Imagem de Fundo Esticada (para altura e largura) */
 body {
     /* Mude para o caminho correto da sua imagem! Ex: 'images/gorila.jpg' */
-    background-image: url('images/foto.jpg'); 
+    background-image: url('foto.jpg'); 
     
     /* ESTICA COMPLETAMENTE: Ajusta a imagem para 100% da largura e 100% da altura da tela.
        Isso distorcerá a imagem se a proporção original for diferente da tela. */
@@ -21,4 +21,5 @@ body {
     min-height: 100vh; 
     
     background-color: #000000; /* Cor de fundo caso a imagem falhe ou demore a carregar */
+
 }
